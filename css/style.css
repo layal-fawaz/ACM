@@ -222,6 +222,7 @@ footer {
 
 /*---------------------------------------------------------*/
 @media (max-width: 768px) {
+
     nav {
         position: fixed;
         width: 100%;
@@ -255,7 +256,7 @@ footer {
         display: block;
         z-index: 100;
         position: fixed;
-        right: 2rem;
+        right: 0;
         top: 0;
     }
 
@@ -265,16 +266,25 @@ footer {
 
     #hero div:first-child {
         margin-top: 5rem;
+        padding: 5rem 2rem;
+
         h2 {
-            font-size: 45px;
+            font-size: 40px;
         }
+    }
+
+    #hero .subscribe input {
+        width: 110% !important;
+
     }
 
     #about_us {
         width: 100%;
         margin-top: 5rem;
+        padding: 5rem 2rem !important;
 
     }
+
 
     #section2 ul {
         display: flex;
@@ -286,7 +296,7 @@ footer {
     #service {
         flex-wrap: wrap;
         text-align: left;
-        padding: 4rem;
+        padding: 2rem;
         margin-top: 5rem;
 
     }
